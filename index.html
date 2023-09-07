@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Quote Generator</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <div id="wrapper">
+        <div id="quote-box">
+            <div class="quote-text" style="opacity: 1;">
+                <i class="fa fa-quote-left">
+                </i>
+                <span id="text">
+                    The only person you are destined to become is the person you decide to be.
+                </span>
+            </div>
+            <div class="quote-author" style="opacity: 1;">
+                -
+                <span id="author">Ralph Waldo Emerson</span>
+            </div>
+            <div class="buttons">
+                <a id="tweet-quote" class="button" title="Tweet this quote!" href="https://twitter.com/intent/tweet"
+                    onclick="return tweet()">
+                    <i class="fa fa-twitter">
+                    </i>
+                </a>
+                <button id="new-quote" class="button">New quote</button>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+
+</html>
