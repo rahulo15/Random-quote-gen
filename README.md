@@ -41,7 +41,7 @@ Follow these instructions to get a copy of the project up and running on your lo
 You can customize this Random Quote Generator to suit your preferences or expand its functionality:
 
 - Add more quotes to the `quotes` array in the `script.js` file.
-- Change the CSS styles in the `style.css` file to match your desired design.
+- Change the CSS styles in the `styles.css` file to match your desired design.
 
 - This project was inspired by the desire to provide a simple and accessible way to receive daily inspiration.
 - Special thanks to [[bagariaraj23](https://github.com/bagariaraj23)] for their valuable contributions to this project.
